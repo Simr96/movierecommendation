@@ -1,0 +1,74 @@
+#  README
+
+This README provides an overview and usage guide for the Python script provided in this repository. The script is designed to perform various operations on movie data using the Pandas and NumPy libraries.
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Dependencies](#dependencies)
+3. [Usage](#usage)
+4. [Data](#data)
+5. [Features](#features)
+6. [Examples](#examples)
+7. [Contributing](#contributing)
+8. [License](#license)
+9. [Contact](#contact)
+
+## Introduction
+
+This Python script is intended for working with movie data. It uses the Pandas and NumPy libraries to manipulate and analyze data from the 'tmdb_5000_movies.csv' and 'tmdb_5000_credits.csv' files. The script performs tasks such as data merging, data cleaning, and content-based movie recommendations.
+
+## Dependencies
+
+Before running the script, ensure you have the following dependencies installed:
+
+- Python 3.x
+- NumPy
+- Pandas
+- scikit-learn
+
+You can install the required Python packages using pip:
+
+```bash
+pip install numpy pandas scikit-learn
+
+  Usage
+To use the script, follow these steps:
+
+Clone this repository to your local machine.
+
+Install the required dependencies as mentioned in the 'Dependencies' section.
+
+Run the script using the following command:
+
+
+python your_script.py
+Replace your_script.py with the name of the Python script you want to execute.
+
+Data
+The script reads data from two CSV files:
+
+'tmdb_5000_movies.csv': Contains movie information.
+'tmdb_5000_credits.csv': Contains movie credits information.
+
+
+Features
+The script provides the following features:
+
+Merging movie and credits data.
+Data cleaning and preprocessing.
+Content-based movie recommendations.
+
+
+Merging movie and credits data:
+
+# Perform data merging
+merged_data = merge_data(movies, credits)
+Content-based movie recommendations:
+
+# Get movie recommendations for 'Gandhi'
+recommend('Gandhi')
+
+
+
+
+
