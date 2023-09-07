@@ -2,16 +2,7 @@
 
 This README provides an overview and usage guide for the Python script provided in this repository. The script is designed to perform various operations on movie data using the Pandas and NumPy libraries.
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Dependencies](#dependencies)
-3. [Usage](#usage)
-4. [Data](#data)
-5. [Features](#features)
-6. [Examples](#examples)
-7. [Contributing](#contributing)
-8. [License](#license)
-9. [Contact](#contact)
+
 
 ## Introduction
 
